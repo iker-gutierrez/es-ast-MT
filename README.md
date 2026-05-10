@@ -105,7 +105,7 @@ sbatch slurm/evaluate_ft.sh
 @misc{gutierrez2026asturian,
   title={Fine-tuning NLLB for Spanish-to-Asturian Machine Translation with different data sizes and validation methods},
   author={Gutierrez Fandiño, Iker},
-  year={2025},
+  year={2026},
   institution={University of the Basque Country (EHU)}
 }
 ```
