@@ -91,12 +91,18 @@ sbatch slurm/evaluate_ft.sh
 ## Repository Structure
 
 ```
-├── es-ast-MT.ipynb          # Colab notebook (prototyping experiments)
-├── extended_abstract.pdf    # Extended abstract
-├── scripts/                 # Training, inference and evaluation scripts
-├── slurm/                   # SLURM job submission scripts
-├── predictions/             # Model predictions on FLORES+ devtest
-└── requirements.txt
+├── colab-subsampled/              # Prototyping experiments with 5,000 training sentences
+│   ├── es-ast-MT.ipynb            # Colab notebook with full pipeline
+│   ├── comparison_results.csv     # Baseline vs. fine-tuned evaluation results
+│   ├── predictions_baseline/      # Baseline model predictions on FLORES+ devtest
+│   └── predictions_ft/            # Fine-tuned model predictions on FLORES+ devtest
+├── server-all-data/               # Full-scale experiments with 704,378 training sentences
+│   ├── scripts/                   # Training, inference and evaluation scripts
+│   ├── slurm/                     # SLURM job submission scripts
+│   └── predictions/               # Model predictions for all validation strategies
+├── extended_abstract.pdf          # Extended abstract of this work
+├── README.md                      # This file
+└── LICENSE
 ```
 
 ## Citation
