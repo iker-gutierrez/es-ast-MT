@@ -1,0 +1,8 @@
+{
+  "total_time_seconds": 74.08575367927551,
+  "num_sentences": 1012,
+  "sentences_per_second": 13.659846188257019,
+  "avg_sentence_latency_seconds": 0.07320726648149754,
+  "batch_size": 32,
+  "model": "facebook/nllb-200-distilled-600M"
+}
