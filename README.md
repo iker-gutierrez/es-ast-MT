@@ -101,7 +101,7 @@ sbatch slurm/evaluate_ft.sh
 │   ├── slurm/                     # SLURM job submission scripts
 │   └── predictions/               # Model predictions for all validation strategies
 ├── extended_abstract.pdf          # Extended abstract of this work
-├── README.md                      # This file
+├── README.md                      
 └── LICENSE
 ```
 
