@@ -6,7 +6,7 @@ Fine-tuning of [NLLB-200-distilled-600M](https://huggingface.co/facebook/nllb-20
 
 | Split | Corpus | Sentences |
 |-------|--------|-----------|
-| Train | [ES-AST Parallel Corpus (AINA)](https://huggingface.co/datasets/projecte-aina/ES-AST_Parallel_Corpus) | 182,725 |
+| Train | [ES-AST Parallel Corpus (AINA)](https://huggingface.co/datasets/projecte-aina/ES-AST_Parallel_Corpus) | 704,378 |
 | Dev   | [FLORES+](https://huggingface.co/datasets/openlanguagedata/flores_plus) | 997 |
 | Test  | [FLORES+](https://huggingface.co/datasets/openlanguagedata/flores_plus) | 1,012 |
 
