@@ -1,0 +1,3 @@
+Model,BLEU,chrF++
+Baseline (NLLB),15.32,42.17
+Fine-tuned (LoRA),12.8,37.45
