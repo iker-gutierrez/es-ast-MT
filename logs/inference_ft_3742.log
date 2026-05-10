@@ -1,0 +1,10 @@
+Job started on u040233.si.ehu.es
+Date: Sun May 10 11:13:00 AM CEST 2026
+CUDA_VISIBLE_DEVICES=5
+
+===== INFERENCE TIME STATS =====
+Total time: 77.21 seconds
+Sentences: 1012
+Sentences/sec: 13.11
+Avg sentence latency: 0.0763 sec
+Job finished at Sun May 10 11:14:25 AM CEST 2026

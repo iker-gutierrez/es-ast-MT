@@ -1,0 +1,13 @@
+/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 97541.95it/s]
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.6.1. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/pytorch_lightning/core/saving.py:197: Found keys that are not in the model state dict but in the checkpoint: ['encoder.model.embeddings.position_ids']
+Traceback (most recent call last):
+  File "/home/igutierrez134/MT/asturian-shared-task/scripts/evaluate_baseline.py", line 62, in <module>
+    comet_result = comet.compute(predictions=comet_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/module.py", line 448, in compute
+    raise ValueError(
+ValueError: Evaluation module inputs are missing: ['sources']. All required inputs are ['sources', 'predictions', 'references']

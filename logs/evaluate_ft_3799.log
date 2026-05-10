@@ -1,0 +1,16 @@
+Job started on u040233.si.ehu.es
+Date: Sun May 10 05:31:36 PM CEST 2026
+CUDA_VISIBLE_DEVICES=3
+
+BLEU: 16.26
+chrF: 48.57
+chrF++: 45.48
+
+Loading COMET...
+COMET: 66.9497
+
+Loading BLEURT...
+BLEURT: 42.6961
+
+Saved results to: workspace/predictions_ft/metrics_results.json
+Job finished at Sun May 10 05:32:32 PM CEST 2026

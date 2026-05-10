@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data
+data/
+workspace/
+*.jsonl
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# HuggingFace cache
+.cache/
+EOF
