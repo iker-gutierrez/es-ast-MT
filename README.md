@@ -69,12 +69,14 @@ sbatch slurm/train.sh
 sbatch slurm/inference_ft.sh
 sbatch slurm/evaluate_ft.sh
 ```
-
 ## Repository Structure
+
+```
 ├── scripts/         # Training, inference and evaluation scripts
 ├── slurm/           # SLURM job submission scripts
 ├── predictions/     # Model predictions on FLORES+ devtest
 └── requirements.txt
+```
 
 ## Citation
 
