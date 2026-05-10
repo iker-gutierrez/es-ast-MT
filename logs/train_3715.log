@@ -1,6 +1,0 @@
-Job started on u040233.si.ehu.es
-Date: Sun May 10 02:54:35 AM CEST 2026
-CUDA_VISIBLE_DEVICES=5
-Sample keys: dict_keys(['input_ids', 'attention_mask', 'labels'])
-trainable params: 4,718,592 || all params: 619,792,384 || trainable%: 0.7613
-Job finished at Sun May 10 02:54:48 AM CEST 2026

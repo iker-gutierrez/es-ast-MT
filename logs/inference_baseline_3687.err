@@ -1,10 +1,0 @@
-[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
-Loading weights:   0%|          | 0/512 [00:00<?, ?it/s]Loading weights: 100%|██████████| 512/512 [00:00<00:00, 9083.73it/s]
-Traceback (most recent call last):
-  File "/home/igutierrez134/MT/asturian-shared-task/scripts/inference_baseline.py", line 119, in <module>
-    json.dump(dataset["tgt"], f, ensure_ascii=False, indent=2)
-              ~~~~~~~^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/datasets/dataset_dict.py", line 92, in __getitem__
-    return super().__getitem__(k)
-           ^^^^^^^^^^^^^^^^^^^^^^
-KeyError: 'tgt'

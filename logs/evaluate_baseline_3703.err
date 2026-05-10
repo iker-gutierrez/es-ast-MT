@@ -1,19 +1,0 @@
-Downloading builder script: 0.00B [00:00, ?B/s]Downloading builder script: 6.97kB [00:00, 21.4MB/s]
-Traceback (most recent call last):
-  File "/home/igutierrez134/MT/asturian-shared-task/scripts/evaluate_baseline.py", line 54, in <module>
-    comet = evaluate.load("comet")
-            ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 748, in load
-    evaluation_module = evaluation_module_factory(
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 680, in evaluation_module_factory
-    raise e1 from None
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 639, in evaluation_module_factory
-    ).get_module()
-      ^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 489, in get_module
-    local_imports = _download_additional_modules(
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 265, in _download_additional_modules
-    raise ImportError(
-ImportError: To be able to use evaluate-metric/comet, you need to install the following dependencies['comet'] using 'pip install unbabel-comet' for instance'

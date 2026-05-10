@@ -1,33 +1,0 @@
-/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
-  warnings.warn(
-Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 90006.52it/s]
-Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.6.1. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../.cache/huggingface/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
-Encoder model frozen.
-/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/pytorch_lightning/core/saving.py:197: Found keys that are not in the model state dict but in the checkpoint: ['encoder.model.embeddings.position_ids']
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
-💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
-You are using a CUDA device ('NVIDIA L40S') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
-SLURM auto-requeueing enabled. Setting signal handlers.
-/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Downloading builder script: 0.00B [00:00, ?B/s]Downloading builder script: 5.21kB [00:00, 20.6MB/s]
-Traceback (most recent call last):
-  File "/home/igutierrez134/MT/asturian-shared-task/scripts/evaluate_baseline.py", line 71, in <module>
-    bleurt = evaluate.load("bleurt", "BLEURT-20")
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 748, in load
-    evaluation_module = evaluation_module_factory(
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 680, in evaluation_module_factory
-    raise e1 from None
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 639, in evaluation_module_factory
-    ).get_module()
-      ^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 489, in get_module
-    local_imports = _download_additional_modules(
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/igutierrez134/envs/asturian-shared-task/lib64/python3.11/site-packages/evaluate/loading.py", line 265, in _download_additional_modules
-    raise ImportError(
-ImportError: To be able to use evaluate-metric/bleurt, you need to install the following dependencies['bleurt'] using 'pip install git+https://github.com/google-research/bleurt.git' for instance'

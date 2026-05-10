@@ -1,9 +1,0 @@
-Job started on u040233.si.ehu.es
-Date: Sun May 10 01:38:44 AM CEST 2026
-CUDA_VISIBLE_DEVICES=5
-
-BLEU: 13.88
-chrF++: 3.41
-
-Loading COMET model...
-Job finished at Sun May 10 01:38:57 AM CEST 2026
