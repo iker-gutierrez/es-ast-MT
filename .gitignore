@@ -7,7 +7,6 @@ cat > .gitignore << 'EOF'
 
 # Data
 data/
-workspace/
 *.jsonl
 *.json
 
@@ -25,3 +24,4 @@ logs/
 logs/
 logs/
 logs/
+workspace/model_*/
