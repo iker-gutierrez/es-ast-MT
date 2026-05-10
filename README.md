@@ -27,8 +27,8 @@ Evaluation on FLORES+ `devtest` (SacreBLEU, COMET, BLEURT):
 | Model | BLEU | chrF++ | COMET | BLEURT |
 |-------|------|--------|-------|--------|
 | Baseline (NLLB) | 13.88 | 40.80 | 65.97 | 44.71 |
-| FT (loss val)   | 16.36 | 45.80 | 67.28 | 43.34 |
-| FT (BLEU val)   | **16.32** | **46.09** | **68.27** | **44.98** |
+| FT (loss val)   | **16.36** | 45.80 | 67.28 | 43.34 |
+| **FT (BLEU val)**   | 16.32 | **46.09** | **68.27** | **44.98** |
 | FT (chrF++ val) | 16.26 | 45.48 | 66.95 | 42.70 |
 
 ## Usage
