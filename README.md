@@ -71,4 +71,18 @@ sbatch slurm/evaluate_ft.sh
 ```
 
 ## Repository Structure
+├── scripts/         # Training, inference and evaluation scripts
+├── slurm/           # SLURM job submission scripts
+├── predictions/     # Model predictions on FLORES+ devtest
+└── requirements.txt
 
+## Citation
+
+```bibtex
+@misc{gutierrez2025asturian,
+  title={Fine-tuning NLLB for Spanish-to-Asturian Machine Translation via LoRA},
+  author={Gutierrez Fandiño, Iker},
+  year={2025},
+  institution={University of the Basque Country (EHU)}
+}
+```
