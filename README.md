@@ -1,4 +1,4 @@
-# Spanish-to-Asturian Machine Translation
+# Fine-tuning NLLB for Spanish-to-Asturian Machine Translation with different data sizes and validation methods
 
 Fine-tuning of [NLLB-200-distilled-600M](https://huggingface.co/facebook/nllb-200-distilled-600M) for Spanish→Asturian (`spa_Latn` → `ast_Latn`) machine translation using Low-Rank Adaptation (LoRA).
 
